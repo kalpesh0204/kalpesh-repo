@@ -8,3 +8,8 @@ for i in lst2:
     lst.append(i)
 print("the updated list is", lst)
 
+def sample(a,b):
+    sum= a+b
+    print("the sum of the values are", sum)
+
+sample(12,13)
