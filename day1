@@ -28,3 +28,5 @@ for i in num:
     if i not in num2:
         num2.append(i)
 print(num2)
+print("HII") 
+print("hello")
