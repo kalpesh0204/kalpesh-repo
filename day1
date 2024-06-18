@@ -15,9 +15,16 @@
 # sample(12,13)
 
 # print("HII")
-num=("q","s")
-num1=("q","r")
-print(num)
-print(num1)
-print(type(num))
-print(type(num1))
+# num=("q","s")
+# num1=("q","r")
+# print(num)
+# print(num1)
+# print(type(num))
+# print(type(num1))
+
+num= [1,2,3,4,3,5,6,7,5]
+num2=[]
+for i in num:
+    if i not in num2:
+        num2.append(i)
+print(num2)
