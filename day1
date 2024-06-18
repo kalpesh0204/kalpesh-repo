@@ -1,18 +1,32 @@
-lst = [1,2,3,4,5,6]
-lst.append(7)
-for i in lst:
-    print(i)
+# lst = [1,2,3,4,5,6]
+# lst.append(7)
+# for i in lst:
+#     print(i)
 
-lst2 = [7,8,9,10]
-for i in lst2:
-    lst.append(i)
-print("the updated list is", lst)
+# lst2 = [7,8,9,10]
+# for i in lst2:
+#     lst.append(i)
+# print("the updated list is", lst)
 
-def sample(a,b):
-    sum= a+b
-    print("the sum of the values are", sum)
+# def sample(a,b):
+#     sum= a+b
+#     print("the sum of the values are", sum)
 
-sample(12,13)
+# sample(12,13)
 
+# print("HII")
+# num=("q","s")
+# num1=("q","r")
+# print(num)
+# print(num1)
+# print(type(num))
+# print(type(num1))
+
+num= [1,2,3,4,3,5,6,7,5]
+num2=[]
+for i in num:
+    if i not in num2:
+        num2.append(i)
+print(num2)
 print("HII") 
 print("hello")
